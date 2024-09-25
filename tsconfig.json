@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "esnext",  
+    "target": "esnext", 
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["*"]
+    },
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "types": ["node","jest", "@testing-library/jest-dom"] 
+  },
+}
